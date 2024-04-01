@@ -32,6 +32,7 @@ export default () => {
     <input type="submit" value="Submit" class="btn btn-primary">
   </form>
   `;
+
   formContainer.innerHTML = formHTML;
 
   const form = document.querySelector('form');
